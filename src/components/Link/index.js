@@ -4,7 +4,7 @@ import styled, { css } from "styled-components";
 import { darken } from "polished";
 
 import { Icon } from "./../Icon";
-import { color } from "./../shared/styles";
+import { color } from "./../../shared/styles";
 
 const linkStyles = css`
   display: inline-block;
