@@ -11,7 +11,7 @@ jobs:
           steps:
             - run: yarn install
             - run: yarn test
-            - run: yarn chromatic --exit-zero-on-changes
+            - run: npx chromatic --project-token=${CHROMATIC_PROJECT_TOKEN} --exit-zero-on-changes
 workflows:
   build-and-test:
     jobs:
