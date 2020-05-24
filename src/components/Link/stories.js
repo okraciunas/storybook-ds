@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { action } from "@storybook/addon-actions";
 
 import { Icon } from "./../Icon";
-import { Link } from "./../Link";
+import { Link } from "./";
 import { StoryLinkWrapper } from "./../StoryLinkWrapper";
 
 const CustomLink = styled(Link)`
